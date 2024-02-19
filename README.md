@@ -6,10 +6,10 @@ This code transform unsigned ints into strings in C.
 
 
 ### find_digit_amounts(int number) -> unsigned int
-This function only works with positive numbers
+This function only works with unsigned ints.
 
 ### int_to_string(int number, int amount_of_digits, char* array)
-this function only works with positive numbers.  
+this function only works with unsigned ints.  
 this function doesnt returns anything only takes the array provided and overwrites it with the digits at the number.  
 The size of the array needs to have the amount of the digits.  
 
