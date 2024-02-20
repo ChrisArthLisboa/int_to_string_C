@@ -1,6 +1,6 @@
 # to_string_C
 
-This code transform unsigned ints into strings in C.
+This code transform number types into strings in C.
 
 ---
 
