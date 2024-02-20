@@ -10,7 +10,7 @@ This code transform unsigned ints into strings in C.
 ### int_to_string(int number, int amount_of_digits, char* string)
 this function doesnt returns anything only takes the array provided and overwrites it with the digits at the number.  
 The size of the array needs to have the amount of the digits.  
-if the number is negative the string need to have one more position"(find_digit_amounts()+1)".
+if the number is negative the string need to have one more position `find_digit_amounts()+1` .
 
 
 ## About
