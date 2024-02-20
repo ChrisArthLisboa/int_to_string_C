@@ -1,4 +1,4 @@
-# int_to_string_C
+# to_string_C
 
 This code transform unsigned ints into strings in C.
 
