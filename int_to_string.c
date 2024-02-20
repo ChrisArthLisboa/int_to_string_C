@@ -18,7 +18,7 @@ void int_to_string(int num, int amount_digits, char* buf) {
     int values = 0;
     int power_10 = amount_digits - 1;
 
-    while(num > 0) {
+    while(true) {
         if (num >= pow(10, power_10)) {
             num -= pow(10, power_10);
             values++;
@@ -26,7 +26,9 @@ void int_to_string(int num, int amount_digits, char* buf) {
             buf[amount_digits - power_10 - 1] = values + '0'; 
             power_10--;
             values = 0;
+						if (num == 0) {
+								break;
+						}
         }
     }
 }
-
