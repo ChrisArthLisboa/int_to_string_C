@@ -26,9 +26,9 @@ void int_to_string(int num, int amount_digits, char* buf) {
             buf[amount_digits - power_10 - 1] = values + '0'; 
             power_10--;
             values = 0;
-						if (num == 0) {
-								break;
-						}
+	    if (num == 0) {
+		break;
+	    }
         }
     }
 }
