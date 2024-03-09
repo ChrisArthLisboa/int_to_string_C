@@ -1,6 +1,7 @@
 # to_string_C
 
 This code transform number types into strings in C.
+> OBS: It uses a lot of the hardware for extreme numbers
 
 ---
 
