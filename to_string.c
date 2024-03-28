@@ -125,3 +125,5 @@ void float_to_string(float num, unsigned int num_of_digits, char* buf) {
 
     buf[num_of_digits+1+base] = '\0';
 }
+
+
