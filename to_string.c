@@ -53,7 +53,7 @@ void int_to_string(int num, int amount_digits, char* buf) {
 
 /* 
  * Finds the full amount of digits in a float
- * but the predefined size that is 47 positions
+ * but the always returns the predefined size of floats
  */
 int float_digit_amount(float num) {
 
