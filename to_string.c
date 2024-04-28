@@ -2,7 +2,6 @@
 #include<math.h>
 #include <stdio.h>
 
-
 int int_digit_amount(int num) {
     int amount_digits = 0;
 
